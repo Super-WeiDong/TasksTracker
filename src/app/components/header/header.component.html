@@ -1,0 +1,8 @@
+<header>
+  <h1>
+     <!-- we can use any js inside{{}} -->
+    {{title}}
+  </h1>
+  <!-- capture click event , onClick, button will emit event, use parent's toggleAddTask() to handle-->
+  <app-button color="green" text="Add"  (click)="toggleAddTask()" ></app-button>
+</header>
